@@ -1,0 +1,112 @@
+https://www.guvi.in/ide
+
+https://www.guvi.com/code-kata
+
+Feedback Form: https://forms.gle/juHPuq6URkoFAAWf8
+
+Portal Demo Link: https://bit.ly/zenportaldemo
+
+Terms & Condition: https://www.zenclass.in/terms-and-conditions2
+
+Admission Form: https://creatorapp.zohopublic.in/teamzen_guvi/zems/form-perma/GUVI_ZEN_Class_Programme_Admission_Form/ZdGYF3ZW6ZNxO6CuX3HV1uV9ECtUhtO0b0eW5Vp22R5XtQyh3PaNHOQxrrOD9NnBumuYdebZK9n8T0tbGZ8RyYd63Q8Kz1dhZ2DC
+
+>>>>>>>>>>>>>>>>>>Template>>>>>>>>>>>>>>>>
+
+// Getting input via STDIN
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+
+inp.on("line", (data) => {
+    
+    // Input data process here
+    
+});
+
+inp.on("close", () => {
+
+    // Output data process here
+
+});
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>/
+
+
+>>>>>>>>>>>>>>>>>>Variable>>>>>>>>>>>>>>>>>>
+
+var => Can Reassign || Can Redeclare
+let => Can Reassign || Can't Redeclare
+const => Can't Reassign || Can't Redeclare
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>> Example >>>>>>>>>>>>>>>>>>>>>
+
+2 + 2 => 4
+    
+2 - 2 => 0
+    
+"h" + "j" => "hj"
+    
+"2" + "2" => "22"
+    
+"5" + 2 => "52"
+    
+"5" - 2 => 3
+    
+"5" - "5" => 0
+    
+"h" - "j" => NaN
+    
+"5" - "j" => NaN
+    
+"5a" - "5" => NaN
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>Exercise 1>>>>>>>>>>>>>>>>>>>
+
+1 + "1" + 1 - 1 + 1 - "1" + 11
+
+"11" + 1 - 1 + 1 - "1" + 11
+
+"111" - 1 + 1 - "1" + 11
+
+110 + 1 - "1" + 11
+
+111 - "1" + 11
+
+110 + 11
+
+121
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>Exercise 2>>>>>>>>>>>>>>>>>>
+
+console.log(1 + "1" - 1 + "1" + +"1" - 1);
+
+1 + "1" - 1 + "1" + +"1" - 1
+
+"11" - 1 + "1" + +"1" - 1
+
+10 + "1" + +"1" - 1
+
+"101" + +"1" - 1
+
+"101" + 1 - 1
+
+"1011" - 1
+
+1010
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Array Methods in JavaScript => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+String Methods in JavaScript => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
+Splice Method => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice

@@ -1,0 +1,182 @@
+https://www.guvi.in/ide
+
+https://www.guvi.com/code-kata
+
+Day 1 Class Recording: https://us06web.zoom.us/rec/play/a4KA5TP-wBW0BtRo917Ylft7xC4OBik4ISBvxVcqz-5KL-c3TaFwHMWEXPeVPdkgCMLW3oHJCDCCbjND.s5ueDsz87RKFc0BM?continueMode=true&_x_zm_rtaid=tCzmJ5FeTze7HkSlhFFhMQ.1673163060230.f7dd0d6faa11af60f4ef78db57804486&_x_zm_rhtaid=372
+
+Feedback Form: https://forms.gle/juHPuq6URkoFAAWf8
+
+Portal Demo Link: https://bit.ly/zenportaldemo
+
+Terms & Condition: https://www.zenclass.in/terms-and-conditions2
+
+Admission Form: https://creatorapp.zohopublic.in/teamzen_guvi/zems/form-perma/GUVI_ZEN_Class_Programme_Admission_Form/ZdGYF3ZW6ZNxO6CuX3HV1uV9ECtUhtO0b0eW5Vp22R5XtQyh3PaNHOQxrrOD9NnBumuYdebZK9n8T0tbGZ8RyYd63Q8Kz1dhZ2DC
+
+>>>>>>>>>>>>>>>>>>Template>>>>>>>>>>>>>>>>
+
+// Getting input via STDIN
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+
+inp.on("line", (data) => {
+    
+    // Input data process here
+    
+});
+
+inp.on("close", () => {
+
+    // Output data process here
+
+});
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>/
+
+
+>>>>>>>>>>>>>>>>>>Variable>>>>>>>>>>>>>>>>>>
+
+var => Can Reassign || Can Redeclare
+let => Can Reassign || Can't Redeclare
+const => Can't Reassign || Can't Redeclare
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>> Example >>>>>>>>>>>>>>>>>>>>>
+
+2 + 2 => 4
+    
+2 - 2 => 0
+    
+"h" + "j" => "hj"
+    
+"2" + "2" => "22"
+    
+"5" + 2 => "52"
+    
+"5" - 2 => 3
+    
+"5" - "5" => 0
+    
+"h" - "j" => NaN
+    
+"5" - "j" => NaN
+    
+"5a" - "5" => NaN
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>Exercise 1>>>>>>>>>>>>>>>>>>>
+
+1 + "1" + 1 - 1 + 1 - "1" + 11
+
+"11" + 1 - 1 + 1 - "1" + 11
+
+"111" - 1 + 1 - "1" + 11
+
+110 + 1 - "1" + 11
+
+111 - "1" + 11
+
+110 + 11
+
+121
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>Exercise 2>>>>>>>>>>>>>>>>>>
+
+console.log(1 + "1" - 1 + "1" + +"1" - 1);
+
+1 + "1" - 1 + "1" + +"1" - 1
+
+"11" - 1 + "1" + +"1" - 1
+
+10 + "1" + +"1" - 1
+
+"101" + +"1" - 1
+
+"101" + 1 - 1
+
+"1011" - 1
+
+1010
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>> Nested If Condition >>>>>>>>>>>>
+
+
+// 90 - 100 => S
+    // 80 - 89 => A
+    // 70 - 79 => B
+    // 60 - 69 => C
+    // 50 - 59 => D
+    // 45 - 49 => E
+    // < 45 => FAIL
+    
+    if (mark < 0 || mark > 100) {
+        
+        console.log("Your mark is invalid")
+        
+    } else if (mark >= 90 && mark <= 100) {
+        
+        console.log("S");
+        
+    } else if (mark >= 80 && mark <= 89) {
+        
+        console.log("A")
+        
+    } else if (mark >= 70 && mark <= 79) {
+        
+        console.log("B")
+        
+    } else if (mark >= 60 && mark <= 69) {
+        
+        console.log("C")
+        
+    } else if (mark >= 50 && mark <= 59) {
+        
+        console.log("D")
+        
+    } else if (mark >= 45 && mark <= 49) {
+        
+        console.log("E")
+        
+    }
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+   0 OR 1 => 1
+   1 OR 1 => 1
+   1 OR 0 => 1
+   0 OR 0 => 0
+    
+   0 AND 1 => 0
+   1 AND 1 => 1
+   1 AND 0 => 0
+   0 AND 0 => 0
+
+
+    28
+    
+    age > 18 && age == 18
+    
+    28 > 18 && 28 == 18
+    
+    true && false
+    
+    1 AND 0 => 0 => false
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Array Methods in JavaScript => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+String Methods in JavaScript => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
+Splice Method => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
